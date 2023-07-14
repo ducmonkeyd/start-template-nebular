@@ -1,0 +1,19 @@
+@mixin nb-overrides() {
+  nb-select.size-medium button {
+    padding: 0.4rem 2rem 0.4rem 1.125rem !important;
+
+    nb-icon {
+      right: 0.4rem !important;
+    }
+  }
+
+  nb-checkbox {
+    line-height: 1;
+  }
+
+  nb-icon {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
