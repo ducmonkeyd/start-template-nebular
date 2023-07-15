@@ -4,17 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './pages/header/header.component';
-import { FooterComponent } from './pages/footer/footer.component';
 import { SharedModule } from './shared/shared.module';
 import { ThemeModule } from './shared/theme.module';
+import { HeaderComponent } from './pages/layout/header/header.component';
+import { FooterComponent } from './pages/layout/footer/footer.component';
+import { SidebarComponent } from './pages/layout/sidebar/sidebar.component';
+import { ProductItemComponent } from './pages/product-item/product-item.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SidebarComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,

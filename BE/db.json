@@ -1,9 +1,33 @@
 {
   "categories": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "name": "Rau củ"
+    },
+    {
+      "id": 2,
+      "name": "Sữa"
+    },
+    {
+      "id": 3,
+      "name": "Thịt trứng sữa"
+    },
+    {
+      "id": 4,
+      "name": "Hải sản"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "name": "Rau chân vịt",
+      "categoryId": 1,
+      "image": "",
+      "inventory": 10,
+      "price": 100000,
+      "weight": 0.3,
+      "isSale": false,
+      "salePrice": "10%"
+    }
+  ]
 }
