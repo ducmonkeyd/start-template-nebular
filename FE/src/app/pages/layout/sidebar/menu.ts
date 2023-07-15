@@ -1,29 +1,29 @@
 export const Menu =[{
     name:'Hải sản',
     id: 1,
-    img:'assets/image/fish.png',
+    img:'assets/images/icons/fish.png',
 },
 {
     name:'Rau củ',
     id: 2,
-    img:'assets/image/vegetable.png',
+    img:'assets/images/icons/vegetable.png',
 
 },
 {
     name:'Thịt ',
     id: 3,
-    img:'assets/image/beef-steak.png',
+    img:'assets/images/icons/beef-steak.png',
 
 },
 {
     name:'Hoa quả',
     id: 4,
-    img:'assets/image/fruit.png',
+    img:'assets/images/icons/fruit.png',
 
 },
 {
     name:'Sữa tươi',
     id: 4,
-    img:'assets/image/milk.png',
+    img:'assets/images/icons/milk.png',
 
 }]
