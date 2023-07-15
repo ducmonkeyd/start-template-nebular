@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Menu } from './menu';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
-
+menu = Menu;
+ngOnInit(){
+  console.log(this.menu)
+}
 }

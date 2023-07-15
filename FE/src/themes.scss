@@ -3,5 +3,6 @@
 // @nebular out of the box themes
 @import '@nebular/theme/styles/themes';
 
-$nb-themes: nb-register-theme(((header-padding:0, header-height: 150px)),
+$nb-themes: nb-register-theme((header-padding:0, header-height: 150px,
+layout-padding: 0,layout-medium-padding: 0,layout-small-padding:0),
     default, default);

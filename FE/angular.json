@@ -15,8 +15,14 @@
       "prefix": "app",
       "architect": {
         "build": {
+          
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/variable"
+              ]
+            },
             "outputPath": "dist/start-template-nebular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -105,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

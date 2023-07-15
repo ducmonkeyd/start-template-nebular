@@ -1,1 +1,11 @@
-<p>sidebar works!</p>
+<div class="container pt-3">
+    <div class="sidebar-menu">
+        <div *ngFor="let item of menu " class="menu-item">
+            <img [src]="item.img" class="icon-menu">
+            <span class="font-weight-bold">
+                {{item.name}}
+            </span>
+
+        </div>
+    </div>
+</div>

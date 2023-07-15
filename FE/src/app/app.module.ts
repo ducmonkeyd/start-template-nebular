@@ -10,6 +10,7 @@ import { HeaderComponent } from './pages/layout/header/header.component';
 import { FooterComponent } from './pages/layout/footer/footer.component';
 import { SidebarComponent } from './pages/layout/sidebar/sidebar.component';
 import { ProductItemComponent } from './pages/product-item/product-item.component';
+import { BannerComponent } from './pages/layout/banner/banner.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ProductItemComponent } from './pages/product-item/product-item.componen
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
