@@ -9,6 +9,7 @@ import { ThemeModule } from './shared/theme.module';
 import { HeaderComponent } from './pages/layout/header/header.component';
 import { FooterComponent } from './pages/layout/footer/footer.component';
 import { SidebarComponent } from './pages/layout/sidebar/sidebar.component';
+import { ProductItemComponent } from './pages/product-item/product-item.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SidebarComponent } from './pages/layout/sidebar/sidebar.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,

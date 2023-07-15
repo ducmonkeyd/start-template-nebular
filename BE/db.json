@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Rau củ"
+    },
+    {
+      "id": 2,
+      "name": "Sữa"
+    },
+    {
+      "id": 3,
+      "name": "Thịt trứng sữa"
+    },
+    {
+      "id": 4,
+      "name": "Hải sản"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rau chân vịt",
+      "categoryId": 1,
+      "image": "",
+      "inventory": 10,
+      "price": 100000,
+      "weight": 0.3,
+      "isSale": false,
+      "salePrice": "10%"
+    }
+  ]
+}
