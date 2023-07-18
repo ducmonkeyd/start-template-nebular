@@ -2,32 +2,76 @@
   "categories": [
     {
       "id": 1,
-      "name": "Rau củ"
+      "name": "Rau củ",
+      "parentId": null
     },
     {
       "id": 2,
-      "name": "Sữa"
+      "name": "Hải sản",
+      "parentId": null
     },
     {
       "id": 3,
-      "name": "Thịt trứng sữa"
+      "name": "Thịt các loại",
+      "parentId": null
     },
     {
       "id": 4,
-      "name": "Hải sản"
+      "name": "Hoa quả",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "name": "Đồ hộp",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "name": "Rau củ nhập khẩu",
+      "parentId": 1
+    },
+    {
+      "id": 7,
+      "name": "Hữu cơ - Organic",
+      "parentId": 1
+    },
+    {
+      "id": 7,
+      "name": "Thịt hộp",
+      "parentId": 5
+    },
+    {
+      "id": 7,
+      "name": "Đồ hộp khô",
+      "parentId": 5
+    },
+    {
+      "id": 7,
+      "name": "Hoa quả sấy",
+      "parentId": 1
+    },
+    {
+      "id": 7,
+      "name": "Thịt đông lạnh",
+      "parentId": 3
+    },
+    {
+      "id": 7,
+      "name": "Thịt nhập khẩu",
+      "parentId": 3
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Rau chân vịt",
       "categoryId": 1,
+      "id": 1,
       "image": "",
       "inventory": 10,
-      "price": 100000,
-      "weight": 0.3,
       "isSale": false,
-      "salePrice": "10%"
+      "name": "Rau chân vịt",
+      "price": 100000,
+      "salePrice": "10%",
+      "weight": 0.3
     }
   ]
 }
