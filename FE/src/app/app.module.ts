@@ -11,6 +11,7 @@ import { FooterComponent } from './pages/layout/footer/footer.component';
 import { SidebarComponent } from './pages/layout/sidebar/sidebar.component';
 import { ProductItemComponent } from './pages/product-item/product-item.component';
 import { BannerComponent } from './pages/layout/banner/banner.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -27,9 +28,10 @@ import { BannerComponent } from './pages/layout/banner/banner.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
+    HttpClientModule,
     ThemeModule.forRoot(),
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
