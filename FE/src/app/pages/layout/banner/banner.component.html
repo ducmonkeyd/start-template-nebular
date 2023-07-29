@@ -1,0 +1,29 @@
+<div class="banner mb-4"> 
+    <app-sidebar></app-sidebar>
+</div>
+<div class="container">
+    <div class=" row" >
+        <div class=" col-sm-4 " *ngFor="let item of listBanners" >
+            <div  [style.backgroundImage]="'url('+ item.img + ')'" class="sub-banner zoom-in-out-box pl-1">
+                <p class="mb-1">
+                    <span class="bg-success text-white px-1 font-weight-bold">
+                        {{item.title}}
+                    </span>
+                </p>
+               
+                <p class="d-flex mb-1">
+                    <span class="bg-warning text-white px-1 font-weight-bold align-items-center">
+                        {{item.amount | number}}
+                        {{item.unit}}
+                    </span>
+                </p>
+                
+        <div >
+        
+        </div>
+            </div>
+        </div>
+     
+    </div>
+</div>
+

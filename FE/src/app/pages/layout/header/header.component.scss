@@ -1,10 +1,14 @@
-.logo{
-    width: 300px;
+.logo {
+    width: 250px;
     height: 150px;
 }
-.header{
-    background-color: #f9f9c5;
+
+.header {
+    background-image: url('^assets/images/background-cover-1.png');
+    background-position: bottom;
+    box-shadow: 0px 5px 10px 0px #f0f7df, 0px 0px 5px 0px #a3cda440;
 }
-:host{
+
+:host {
     width: 100%;
 }

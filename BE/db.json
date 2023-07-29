@@ -73,5 +73,28 @@
       "salePrice": "10%",
       "weight": 0.3
     }
+  ],
+  "banners":[
+    {
+      "id":"b1",
+      "title":"chi voi",
+      "amount": 390000,
+      "unit":"KG",
+      "img":"assets/images/banners/banner1.png"
+    },
+    {
+      "id":"b2",
+      "title":"chi voi",
+      "amount": 490000,
+      "unit":"KG",
+      "img":"assets/images/banners/banner2.png"
+    },
+    {
+      "id":"b3",
+      "title":"chi voi",
+      "amount": 590000,
+      "unit":"KG",
+      "img":"assets/images/banners/banner3.png"
+    }
   ]
 }

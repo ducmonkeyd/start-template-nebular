@@ -1,1 +1,33 @@
-<p>sidebar works!</p>
+<div class="container pt-3">
+    <div class="scrollbar" id="style-1">
+        <div class="sidebar-menu">
+            <div class="d-flex bg-success menu-item ">
+                <nb-icon icon="menu-outline" status="light"></nb-icon>
+                <span class="ml-3">{{'Danh mục' | uppercase}} </span>
+            </div>
+            <div *ngFor="let item of menu " (click)="toggleMenuChild(item)">
+                <div class="menu-item">
+                    <!-- <img [src]="item.img" class="icon-menu"> -->
+                    <span class="font-weight-bold">
+                        {{item.name}}
+                    </span>
+                    <nb-icon icon="arrow-ios-downward-outline"
+                        *ngIf="item.menuChild && item.menuChild.length > 0"></nb-icon>
+                </div>
+
+
+                <div *ngIf="item.menuChild && item.menuChild.length > 0 && item.isShowChild">
+                    <div *ngFor="let el of item.menuChild" class="menu-item ml-3">
+                        {{el.name}}
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="menu-item">
+                <small class="text-center last-item "> {{'xem thêm' | uppercase}}</small>
+            </div>
+        </div>
+    </div>
+
+</div>
