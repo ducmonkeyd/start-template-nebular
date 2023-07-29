@@ -3,4 +3,6 @@ export class SidebarMenuModel{
     name: string;
     id: number;
     menuChild: SidebarMenuModel[];
+    // additionfield
+    isShowChild?: Boolean;
 }

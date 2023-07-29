@@ -14,6 +14,7 @@ export class SidebarComponent {
   menu: SidebarMenuModel[] = [];
   date: Date = new Date();
   categories: CategoriesModel[] = [];
+  menuChild: Boolean;
   constructor(
     private _categoriesService: CategoriesService
   ) { }
@@ -30,7 +31,8 @@ export class SidebarComponent {
             icon: null,
             name: el.name,
             id: el.id,
-            menuChild: []
+            menuChild: [],
+            isShowChild: false
           }
         });
         menu.forEach(item => {
@@ -42,6 +44,7 @@ export class SidebarComponent {
               name: el.name,
               id: el.id,
               menuChild: [],
+              isShowChild: false
             }
           })
         });
@@ -51,5 +54,10 @@ export class SidebarComponent {
 
     )
 
+  }
+  toggleMenuChild(menuitem:SidebarMenuModel){
+    menuitem.isShowChild = !menuitem.isShowChild
+    // let array = this.menu.filter(item => menuitem.id != item.id)  
+    // array.forEach(el => el.isShowChild = false)
   }
 }

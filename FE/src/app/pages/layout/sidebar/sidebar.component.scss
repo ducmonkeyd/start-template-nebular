@@ -32,9 +32,26 @@
         width: 30px;
         margin-right: 10px;
     }
+
+    .last-item {
+        display: block
+    }
 }
 
 .menu-item:not(:last-child) {
     border-bottom: solid 0.5px #F2F2F2;
+}
 
+.scrollbar {
+    overflow-y: scroll;
+    max-height: 485px;
+    width: 205px;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #d4d4d4;
 }
